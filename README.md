@@ -1,5 +1,7 @@
 # Process documentation
 
+---------------------------------------------------------------
+
 <h2>first changes</h2>
 
 1.  first of all i added some personality to the different characters by changing the position of voice1 (the intercom voice) and voice2 (the main character) and the styling to their text (color, padding, background-color).
