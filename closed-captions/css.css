@@ -94,23 +94,98 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
-
-/* **********************************************
-Sounds.
-	You can style the whole body, or you can 
-	style anything within the body the moment
-	a sound starts.
-*********************************************  */
-
-/* The moment the class .sound1 is added to the body, the background is yellow */
-.sound1 {
-	background: yellow;
+.voice1 {
+	padding: 5px;
+	background-color: turquoise;
+	color: black;
+	margin-left: 700px;
+	font-size: 38px;
+}
+.voice2 {
+	font-size: 24px;
+	margin-left: 10em;
+	padding: 15px;
+	background-color: ivory;
+	color: black;
+}
+.voice3 {
+	font-size: 75px;
+	font-weight: bolder;
+	color: darkred;
+	margin-left: 5em;
+	animation: cursingVoice 1s linear;
+}
+.voice4 {
+	margin-left: 700px;
+	color: darkslateblue;
+	font-size: 24px;
 }
 
-iframe {
-	transition: 1s;
+.sound0 {
+	animation: openingShot 20s linear;
 }
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 iframe {
-	transform: rotate(1turn);
+.sound4 {
+	animation: buzzerAni1 1s linear;
+}
+.sound6 {
+	animation: buzzerAni2 1s linear;
+}
+.sound8 {
+	animation: buzzerAni3 1s linear;
+}
+.sound9 {
+	animation: sharpNoise1 42s linear;
+}
+.sound10 {
+	animation: sharpNoise2 45s linear;
+}
+
+@keyframes buzzerAni1 {
+	0% {background-color: black;}
+	25% {background-color: red;}
+	50% {background-color: black}
+	100% {background-color: white;}
+}
+
+@keyframes buzzerAni2 {
+	0% {background-color: black;}
+	25% {background-color: red;}
+	50% {background-color: black}
+	100% {background-color: white;}
+}
+
+@keyframes buzzerAni3 {
+	0% {background-color: black;}
+	25% {background-color: red;}
+	50% {background-color: black}
+	100% {background-color: white;}
+}
+
+@keyframes openingShot {
+	0% {background-color: black;}
+	25% {background-color: rgb(29, 41, 41);}
+	50% {background-color: rgb(0, 78, 78)}
+	75% {background-color: rgb(26, 41, 41);}
+	99% {background-color: black;}
+	100% {background-color: white;}
+}
+
+@keyframes cursingVoice {
+	0% {opacity: 100%;}
+	20% {color: red;}
+	40% {color: darkred;}
+	60% {color: red;}
+	75% {color: darkred}
+	90% {opacity: 90%}
+	100% {opacity: 0%}
+}
+
+@keyframes sharpNoise1 {
+	0% {background-color: lightblue;}
+	100% {background-color: turquoise;}
+}
+
+@keyframes sharpNoise2 {
+	0% {background-color: lightcoral;}
+	100% {background-color: darkred;}
 }
