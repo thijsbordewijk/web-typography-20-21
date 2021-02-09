@@ -1,6 +1,6 @@
 # Process documentation
 
-# First changes
+<h2>first changes</h2>
 
 1.  first of all i added some personality to the different characters by changing the position of voice1 (the intercom voice) and voice2 (the main character) and the styling to their text (color, padding, background-color).
 2.  Then i added styling to the cursing voice halfway through the clip, this is an intense part so i made the color to this text blood-red with an animation that shifts between normal red and dark red. The text is way bigger than any other text we have seen because it is aggresive, instead of the passive aggressive tone we might get in other places in this clip.
@@ -11,7 +11,7 @@
 
 7. in the next scene the main character does not pass this test, the pressure is a lot higher and the mian character has a lot less control and is overshadowed by the voice in the intercom. the backgorund color in this scene starts with a light red and gets darker and darker the more the main character fails the test.
 
-# Summary first changes
+<h2>summary first changes</h2>
  - voices have been given a personality based on the amount of control they have in the scene and the tone they have in their voice.
  - background noises impact the background color of the page in a way that simulates the feeling it gives the main character.
 
