@@ -1,3 +1,22 @@
+# Process documentation
+
+# First changes
+
+1.  first of all i added some personality to the different characters by changing the position of voice1 (the intercom voice) and voice2 (the main character) and the styling to their text (color, padding, background-color).
+2.  Then i added styling to the cursing voice halfway through the clip, this is an intense part so i made the color to this text blood-red with an animation that shifts between normal red and dark red. The text is way bigger than any other text we have seen because it is aggresive, instead of the passive aggressive tone we might get in other places in this clip.
+3.  then i started te listen to background noises and how they impact the viewing experience. In the opening scene the shots are very dark, and we dont know too much about what is going on, i made the background similar to the colors in the shot to simulate this mystery of not knowing what is goin on. I did this with a CSS animation based on percentages. The background colors shift between darker versions of teal and darkslategray.
+4.  next we hear a buzzer, the buzzer repeats a couple times and clearly indicates the intense situation and the pressure the main character is under. he is clearly being disrespected and discriminated by other people in the hallway, the screen flashes red and black every time the buzzer rings (once again with an animation). The main character want to get out of there.
+5.  we enter the interrogation chamber. The main character seems way more comfortable, the background color changes to a light blue, but a sharp tones creeps in, becoming more and more present over the coming 30 seconds, the light blue slowly changes to a bright turqouise, the color of the intercoms text, the intercom bein the one in control here, he puts more pressure on the main character when the scene progresses.
+6.  suddenly the voice says they are done and tells the main character he can pick a bonus, he clearly passed this test, the background color is back to white and the intercoms voice is no longer in bright turqouise but a soothing blue.
+
+7. in the next scene the main character does not pass this test, the pressure is a lot higher and the mian character has a lot less control and is overshadowed by the voice in the intercom. the backgorund color in this scene starts with a light red and gets darker and darker the more the main character fails the test.
+
+# Summary first changes
+ - voices have been given a personality based on the amount of control they have in the scene and the tone they have in their voice.
+ - background noises impact the background color of the page in a way that simulates the feeling it gives the main character.
+
+---------------------------------------------------------------
+
 # Web Typography, 2020/2021
 
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
