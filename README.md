@@ -1,5 +1,7 @@
 # Process documentation
 
+---------------------------------------------------------------
+
 <h2>first changes</h2>
 
 1.  first of all i added some personality to the different characters by changing the position of voice1 (the intercom voice) and voice2 (the main character) and the styling to their text (color, padding, background-color).
@@ -14,6 +16,17 @@
 <h2>summary first changes</h2>
  - voices have been given a personality based on the amount of control they have in the scene and the tone they have in their voice.
  - background noises impact the background color of the page in a way that simulates the feeling it gives the main character.
+
+---------------------------------------------------------------
+<h2>Second changes</h2>
+
+1. Added font-family variations for the different voices to add to their character. The voice trough the intercom gets the typewriter-like brenner mono to simulate its robotic personality, the main character gets Brenner Sans, the straight, emotionless font that matches his cyborg personality, the man in the hallway gets Brenner Slab, a more stylized version of Sans, to show his humanity. In the following scene, where the main characted thinks of himself as human, while being a cyborg, he will also adapt the Slab font.
+2. Changed the background color of the interrogation scene and of the intercom voice to Yellow. Yellow showcases more stress than Turqouise while still being less tense than Red.
+
+<h2>Summary second changes</h2>
+ - voices have matching font-families
+ - changed interrogation scene background to yellow
+ - changed background of intercom voice text to yellow
 
 ---------------------------------------------------------------
 
