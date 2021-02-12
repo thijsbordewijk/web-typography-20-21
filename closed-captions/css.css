@@ -21,6 +21,10 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 }
 
+#video-placeholder {
+	margin-left: 20%;
+}
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -30,50 +34,57 @@ The first paragraph, with extended timing for
 You probably want to change the styling.
 ********************************************** */
 
-.voice1 {
+.voice1.on {
 	padding: 5px;
 	background-color: yellow;
 	color: black;
-	margin-left: 700px;
-	font-size: 38px;
+	margin-left: 800px;
+	font-size: 24px;
 	font-family: Brenner mono;
 }
-.voice2 {
+.voice2.on {
 	font-size: 24px;
-	margin-left: 10em;
+	margin-left: 17em;
 	padding: 15px;
 	background-color: ivory;
 	color: black;
 	font-family: Brenner sans;
 }
-.voice3 {
-	font-size: 75px;
-	font-weight: bolder;
-	color: darkred;
-	margin-left: 5em;
-	animation: cursingVoice 2s linear;
+.voice3.on {
+	font-size: 24px;
+	font-weight: bold;
+	color: rgba(255, 0, 0, 0.15);
+	margin-left: 45em;
+	animation: cursingVoice1 2s linear;
 	font-family: Brenner slab;
 }
-.voice4 {
+.voice4.on {
 	margin-left: 700px;
 	color: darkslateblue;
-	font-size: 24px;
+	font-size: 20px;
 	font-family: Brenner mono; 
 	padding: 5px;
-	background-color: lightblue;
+	background-color: rgb(255, 255, 125);
 }
 
 .sound0 {
 	animation: openingShot 20s linear;
 }
+.sound1 {
+	animation: noiseAni1 20s linear;
+}
+.sound2 {
+	animation: noiseAni2 15s linear;
+}
+
 .sound4 {
-	animation: buzzerAni1 1s linear;
+	animation: buzzerAni1 10s linear;
 }
 .sound6 {
-	animation: buzzerAni2 1s linear;
+	animation: buzzerAni2 10s linear;
 }
 .sound8 {
-	animation: buzzerAni3 1s linear;
+	animation: buzzerAni3 10s linear;
 }
 .sound9 {
 	animation: sharpNoise1 42s linear;
@@ -82,43 +93,64 @@ You probably want to change the styling.
 	animation: sharpNoise2 45s linear;
 }
 
+@keyframes noiseAni1 {
+	0% {background-color: black;}
+	5% {background-color: rgb(73, 20, 0);}
+	10% {background-color: black;}
+	100% {background-color: black;}
+}
+
+@keyframes noiseAni2 {
+	0% {background-color: black;}
+	9.9% {background-color: rgb(97, 63, 0);}
+	10% {background-color: black;}
+	100% {background-color: black;}
+}
+
 @keyframes buzzerAni1 {
 	0% {background-color: black;}
-	25% {background-color: red;}
-	50% {background-color: black}
-	100% {background-color: white;}
+	2% {background-color: red;}
+	4% {background-color: white}
+	7% {background-color: black;}
+	30% {background-color: black;}
+	70% {background-color: rgb(83, 0, 0);}
+	95% {background-color: black;}
+	100% {background-color: black;}
 }
 
 @keyframes buzzerAni2 {
 	0% {background-color: black;}
-	25% {background-color: red;}
-	50% {background-color: black}
-	100% {background-color: white;}
+	2% {background-color: red;}
+	4% {background-color: white}
+	7% {background-color: black;}
+	30% {background-color: rgb(83, 0, 0);}
+	60% {background-color: black;}
+	100% {background-color: black;}
 }
 
 @keyframes buzzerAni3 {
 	0% {background-color: black;}
-	25% {background-color: red;}
-	50% {background-color: black}
+	2% {background-color: red;}
+	4% {background-color: white}
+	7% {background-color: white;}
 	100% {background-color: white;}
 }
 
 @keyframes openingShot {
 	0% {background-color: black;}
 	25% {background-color: rgb(29, 41, 41);}
-	50% {background-color: rgb(0, 78, 78)}
+	50% {background-color: rgb(0, 56, 56)}
 	75% {background-color: rgb(26, 41, 41);}
-	99% {background-color: black;}
-	100% {background-color: white;}
+	100% {background-color: black;}
 }
 
-@keyframes cursingVoice {
-	0% {opacity: 100%;}
+@keyframes cursingVoice1 {
+	0% {opacity: 60%;}
 	20% {color: red;}
 	40% {color: darkred;}
 	60% {color: red;}
 	75% {color: darkred}
-	90% {opacity: 90%}
+	90% {opacity: 15%}
 	100% {opacity: 0%}
 }
 
