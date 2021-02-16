@@ -5,11 +5,20 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+body {
+	margin-top: 0px;
+}
+.subBox {
+	background-color: black;
+	width: 1100px;
+	height: 40vw;
+	margin-left: 393.5px;
+}
 
 #elaizaSounds p {
 	position: absolute;
 	margin-top: -3em;
-	width: 100%;
+	width: 1100px;
 	text-align: center;
     opacity: 0;
     color: ivory;
@@ -32,10 +41,6 @@ Feel free to adjust the defaults to your needs.
 	font-style: italic;
 }
 
-#video-placeholder {
-	margin-left: 20%;
-}
-
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -46,40 +51,36 @@ You probably want to change the styling.
 ********************************************** */
 
 .voice1.on {
-	padding: 5px;
-	background-color: yellow;
-	color: black;
-	margin-top: 50px;
-	margin-left: 800px;
+	padding: 15px;
+	width: 1070px;
+	text-align: right;
+	color: yellow;
 	font-size: 21px;
 	font-family: Brenner mono;
 }
 .voice2.on {
 	font-size: 21px;
-	margin-left: 17em;
-	margin-top: 50px;
+	width: 1070px;
 	padding: 15px;
-	background-color: ivory;
-	color: black;
+	color: ivory;
 	font-family: Brenner sans;
 }
 .voice3.on {
 	font-size: 24px;
+	width: 1100px;
+	text-align: center;
 	font-weight: bold;
 	color: rgba(255, 0, 0, 0.15);
-	margin-left: 45em;
-	margin-top: 50px;
 	animation: cursingVoice1 2s linear;
 	font-family: Brenner slab;
 }
 .voice4.on {
-	margin-left: 700px;
-	margin-top: 50px;
-	color: darkslateblue;
-	font-size: 20px;
+	width: 1070px;
+	text-align: right;
+	color: rgb(255, 255, 125);
+	font-size: 21px;
 	font-family: Brenner mono; 
-	padding: 5px;
-	background-color: rgb(255, 255, 125);
+	padding: 15px;
 }
 
 /* Overgenomen van Elaiza */
@@ -113,7 +114,6 @@ You probably want to change the styling.
 .sound10 {
 	animation: sharpNoise2 45s linear;
 }
-
 
 /* Overgenomen van Elaiza */
 .sound0 #elaizaSounds .uno {
