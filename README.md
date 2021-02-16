@@ -18,6 +18,7 @@
  - background noises impact the background color of the page in a way that simulates the feeling it gives the main character.
 
 ---------------------------------------------------------------
+
 <h2>Second changes</h2>
 
 1. Added font-family variations for the different voices to add to their character. The voice trough the intercom gets the typewriter-like brenner mono to simulate its robotic personality, the main character gets Brenner Sans, the straight, emotionless font that matches his cyborg personality, the man in the hallway gets Brenner Slab, a more stylized version of Sans, to show his humanity. In the following scene, where the main characted thinks of himself as human, while being a cyborg, he will also adapt the Slab font.
@@ -28,6 +29,21 @@
  - changed interrogation scene background to yellow
  - changed background of intercom voice text to yellow
 
+---------------------------------------------------------------
+
+<h2>Changes 3</h2>
+
+1. I changed to background color of .voice4 to look more like .voice1, but lightened the colors to imply that the voice speaks much less intense, and more calm.
+2. changed the size and place of the video player, this is now more in the middle with a bigger screen, i also changed the locations of the text to match with this change.
+3. changed .voice3 text size and place. The font was too big, the man didnt scream at the main character, he whispered the slur in his ear. so an intense red with small letters is more accurate.
+4. added background animations for more background noises in the beginnen of the scene.
+5. added background animations to match the atmosphere of the hallway scene, a hostile area where the main character is not appreciated and even discriminated on. The room slowly flashes a dark red.
+
+<h2>Summary changes 3</h2>
+ - changed the styling of some voices to match their tone more.
+ - added more background animations
+ - changed the size and place of the video player
+ 
 ---------------------------------------------------------------
 
 # Web Typography, 2020/2021
