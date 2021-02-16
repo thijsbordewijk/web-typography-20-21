@@ -6,12 +6,12 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 body {
-	margin-top: 0px;
+	margin-top: 150px;
 }
 .subBox {
 	background-color: black;
 	width: 1100px;
-	height: 40vw;
+	height: 35vw;
 	margin-left: 393.5px;
 }
 
@@ -51,22 +51,22 @@ You probably want to change the styling.
 ********************************************** */
 
 .voice1.on {
-	padding: 15px;
+	padding-right: 15px;
 	width: 1070px;
 	text-align: right;
 	color: yellow;
-	font-size: 21px;
+	font-size: 18px;
 	font-family: Brenner mono;
 }
 .voice2.on {
 	font-size: 21px;
 	width: 1070px;
-	padding: 15px;
+	padding-left: 15px;
 	color: ivory;
 	font-family: Brenner sans;
 }
 .voice3.on {
-	font-size: 24px;
+	font-size: 18px;
 	width: 1100px;
 	text-align: center;
 	font-weight: bold;
@@ -78,9 +78,9 @@ You probably want to change the styling.
 	width: 1070px;
 	text-align: right;
 	color: rgb(255, 255, 125);
-	font-size: 21px;
+	font-size: 18px;
 	font-family: Brenner mono; 
-	padding: 15px;
+	padding-right: 15px;
 }
 
 /* Overgenomen van Elaiza */
