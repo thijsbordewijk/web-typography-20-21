@@ -1,3 +1,5 @@
+GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-captions/
+
 # Process documentation
 
 ---------------------------------------------------------------
