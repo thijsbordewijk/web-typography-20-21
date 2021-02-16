@@ -5,6 +5,18 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+#elaizaSounds p {
+	margin-top: -3em;
+	margin-left: 21em;
+    opacity: 0;
+    position: absolute;
+    color: ivory;
+	background-color: black;
+	padding: 5px;
+    font-family: "Brenner Light";
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -38,13 +50,15 @@ You probably want to change the styling.
 	padding: 5px;
 	background-color: yellow;
 	color: black;
+	margin-top: 50px;
 	margin-left: 800px;
-	font-size: 24px;
+	font-size: 21px;
 	font-family: Brenner mono;
 }
 .voice2.on {
-	font-size: 24px;
+	font-size: 21px;
 	margin-left: 17em;
+	margin-top: 50px;
 	padding: 15px;
 	background-color: ivory;
 	color: black;
@@ -55,17 +69,26 @@ You probably want to change the styling.
 	font-weight: bold;
 	color: rgba(255, 0, 0, 0.15);
 	margin-left: 45em;
+	margin-top: 50px;
 	animation: cursingVoice1 2s linear;
 	font-family: Brenner slab;
 }
 .voice4.on {
 	margin-left: 700px;
+	margin-top: 50px;
 	color: darkslateblue;
 	font-size: 20px;
 	font-family: Brenner mono; 
 	padding: 5px;
 	background-color: rgb(255, 255, 125);
 }
+
+/* Overgenomen van Elaiza */
+#elaizaSounds {
+    z-index: 200;
+    font-size: 1.2em;
+}
+/* tot hier */
 
 .sound0 {
 	animation: openingShot 20s linear;
@@ -76,7 +99,6 @@ You probably want to change the styling.
 .sound2 {
 	animation: noiseAni2 15s linear;
 }
-
 .sound4 {
 	animation: buzzerAni1 10s linear;
 }
@@ -92,6 +114,47 @@ You probably want to change the styling.
 .sound10 {
 	animation: sharpNoise2 45s linear;
 }
+
+
+/* Overgenomen van Elaiza */
+.sound0 #elaizaSounds .uno {
+    animation: soundFade 8s;
+}
+.sound1 #elaizaSounds .tres {
+    animation: soundFade 2s;
+}
+.sound2 #elaizaSounds .dos {
+    animation: soundFade 2s;
+}
+.sound3 #elaizaSounds .tres2 {
+    animation: soundFade 1.5s;
+}
+.sound4 #elaizaSounds .tres3 {
+    animation: soundFade 1.5s;
+}
+.sound5 #elaizaSounds .tres4 {
+    animation: soundFade 1.5s;
+}
+.sound6 #elaizaSounds .tres5 {
+    animation: soundFade 1.5s;
+}
+.sound7 #elaizaSounds .tres6 {
+    animation: soundFade 1.3s;
+}
+.sound8 #elaizaSounds .tres7 {
+    animation: soundFade 1.5s;
+}
+.sound8 #elaizaSounds .quatro {
+    opacity: 1;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.sound9 #elaizaSounds .quatro {
+    transition-delay: 40s;
+    transition-duration: 1;
+    opacity: 0;
+}
+/* tot hier */
 
 @keyframes noiseAni1 {
 	0% {background-color: black;}
@@ -145,21 +208,31 @@ You probably want to change the styling.
 }
 
 @keyframes cursingVoice1 {
-	0% {opacity: 60%;}
+	0% {opacity: 60%;
+		color: white;}
 	20% {color: red;}
 	40% {color: darkred;}
-	60% {color: red;}
-	75% {color: darkred}
+	60% {color: white;}
+	75% {color: red}
 	90% {opacity: 15%}
 	100% {opacity: 0%}
 }
 
 @keyframes sharpNoise1 {
-	0% {background-color: white;}
-	100% {background-color: yellow;}
+	0% {filter: brightness(100%);
+		background-color: white;}
+	100% {filter: brightness(25%);
+		background-color: darkgrey;
+		color: white;}
 }
 
-@keyframes sharpNoise2 {
-	0% {background-color: lightcoral;}
-	100% {background-color: darkred;}
+/* Overgenomen van Elaiza */
+@keyframes soundFade {
+    0% {opacity: 1;
+		filter: brightness(100%)}
+    75% {opacity: 1;
+		filter: brightness(100%)}
+    100% {opacity: 0;
+		filter: brightness(100%)}
 }
+/* tot hier */
