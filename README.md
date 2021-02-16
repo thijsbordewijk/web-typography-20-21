@@ -65,11 +65,13 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
 
 1. after the feedback i wanted to change the alignment of the different voices to the edges of the video to make it look less random. i ran into an issue with the background color of the text so i had to remove that. To solve the problem with contrast i made a little black box under the video player that will serve as a box for the subtitles, all text in here has a fine contrast with black. 
 2. the color of the text is now the color that the background of the text was before.
+3. Put the video player in the center of the screen to make the background color go around it to enlargen the experience.
 
 <h3>Summary changes</h3>
  - removed background color from text.
  - added a subtitle box.
  - changed the color of the text to their former background color.
+ - moved the video player to the center of the screen
 
 --------------------------------------------------------------- 
 
