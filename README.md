@@ -15,7 +15,7 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
 
 7. in the next scene the main character does not pass this test, the pressure is a lot higher and the mian character has a lot less control and is overshadowed by the voice in the intercom. the backgorund color in this scene starts with a light red and gets darker and darker the more the main character fails the test.
 
-<h2>summary first changes</h2>
+<h3>Summary first changes</h3>
  - voices have been given a personality based on the amount of control they have in the scene and the tone they have in their voice.
  - background noises impact the background color of the page in a way that simulates the feeling it gives the main character.
 
@@ -26,7 +26,7 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
 1. Added font-family variations for the different voices to add to their character. The voice trough the intercom gets the typewriter-like brenner mono to simulate its robotic personality, the main character gets Brenner Sans, the straight, emotionless font that matches his cyborg personality, the man in the hallway gets Brenner Slab, a more stylized version of Sans, to show his humanity. In the following scene, where the main characted thinks of himself as human, while being a cyborg, he will also adapt the Slab font.
 2. Changed the background color of the interrogation scene and of the intercom voice to Yellow. Yellow showcases more stress than Turqouise while still being less tense than Red.
 
-<h2>Summary second changes</h2>
+<h3>Summary second changes</h3>
  - voices have matching font-families
  - changed interrogation scene background to yellow
  - changed background of intercom voice text to yellow
@@ -41,7 +41,7 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
 4. added background animations for more background noises in the beginnen of the scene.
 5. added background animations to match the atmosphere of the hallway scene, a hostile area where the main character is not appreciated and even discriminated on. The room slowly flashes a dark red.
 
-<h2>Summary changes 3</h2>
+<h3>Summary changes 3</h3>
  - changed the styling of some voices to match their tone more.
  - added more background animations
  - changed the size and place of the video player
@@ -54,7 +54,7 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
 2. After the feedback i added text to show the user the name of the person talking, and a description of the sounds in the background, next to the color sound-effects in the background.
 3. tweaked some text-sizes and places to match the size of the extra text.
 
-<h2>Summary changes</h2>
+<h3>Summary changes</h3>
  - changed background effect interrogation scene after feedback.
  - added text to clarify who is talking and what noise is in the background.
  - tweaked text styling
