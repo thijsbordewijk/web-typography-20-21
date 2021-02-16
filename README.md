@@ -31,7 +31,7 @@
 
 ---------------------------------------------------------------
 
-<h2>Changes 3</h2>
+<h2>changes after first feedback</h2>
 
 1. I changed to background color of .voice4 to look more like .voice1, but lightened the colors to imply that the voice speaks much less intense, and more calm.
 2. changed the size and place of the video player, this is now more in the middle with a bigger screen, i also changed the locations of the text to match with this change.
@@ -46,6 +46,19 @@
  
 ---------------------------------------------------------------
 
+<h2>changes after second feedback</h2>
+
+1. Changed the background effect used in the interrogation scene. After Feedback form Darice she told us that darkening a scene would simulate intensity, which was exactly what i needed for this scene, the background, text and video player darken in color.
+2. After the feedback i added text to show the user the name of the person talking, and a description of the sounds in the background, next to the color sound-effects in the background.
+3. tweaked some text-sizes and places to match the size of the extra text.
+
+<h2>Summary changes</h2>
+ - changed background effect interrogation scene after feedback.
+ - added text to clarify who is talking and what noise is in the background.
+ - tweaked text styling
+ 
+--------------------------------------------------------------- 
+  
 # Web Typography, 2020/2021
 
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
