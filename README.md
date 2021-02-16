@@ -33,7 +33,7 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
 
 ---------------------------------------------------------------
 
-<h2>changes after first feedback</h2>
+<h2>Changes after first feedback</h2>
 
 1. I changed to background color of .voice4 to look more like .voice1, but lightened the colors to imply that the voice speaks much less intense, and more calm.
 2. changed the size and place of the video player, this is now more in the middle with a bigger screen, i also changed the locations of the text to match with this change.
@@ -48,7 +48,7 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
  
 ---------------------------------------------------------------
 
-<h2>changes after second feedback</h2>
+<h2>Changes after second feedback</h2>
 
 1. Changed the background effect used in the interrogation scene. After Feedback form Darice she told us that darkening a scene would simulate intensity, which was exactly what i needed for this scene, the background, text and video player darken in color.
 2. After the feedback i added text to show the user the name of the person talking, and a description of the sounds in the background, next to the color sound-effects in the background.
@@ -60,7 +60,19 @@ GITHUB PAGES: https://thijsbordewijk.github.io/web-typography-20-21/closed-capti
  - tweaked text styling
  
 --------------------------------------------------------------- 
-  
+
+<h2>Changes after final feedback</h2>
+
+1. after the feedback i wanted to change the alignment of the different voices to the edges of the video to make it look less random. i ran into an issue with the background color of the text so i had to remove that. To solve the problem with contrast i made a little black box under the video player that will serve as a box for the subtitles, all text in here has a fine contrast with black. 
+2. the color of the text is now the color that the background of the text was before.
+
+<h3>Summary changes</h3>
+ - removed background color from text.
+ - added a subtitle box.
+ - changed the color of the text to their former background color.
+
+--------------------------------------------------------------- 
+
 # Web Typography, 2020/2021
 
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
